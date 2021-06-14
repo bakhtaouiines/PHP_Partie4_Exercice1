@@ -1,3 +1,9 @@
+<?php
+        declare(strict_types = 1);
+        function isTrue() : bool{
+            return TRUE;
+        }
+        ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -7,14 +13,7 @@
     <title>Exercice 4.1</title>
 </head>
 <body>
-    <h1>Exercice 1 Partie 4 : Les fonctions PHP</h1>
-    <p>
-    <?php
-        function myFunction() : bool{
-            return TRUE;
-        }
-        echo myFunction();
-    ?>
-    </p>
+    <h1>Exercice 1 Partie 4 : Les fonctions PHP</h1>   
+    <p><?= isTrue();?></p>
 </body>
 </html>
